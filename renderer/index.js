@@ -25,8 +25,8 @@ const renderListHTML = (tracks)=>{
         return html
     },'')
     const emptyTrackHTML = '<div class="alert alert-primary">还没有添加任何音乐</div>'
-    // trackList.innerHTML=tracks.length?`<ul class='list-group'>${trackListHTML}</ul>`:emptyTrackHTML
-    tracksList.innerHTML = `<ul class='list-group'>${trackListHTML}</ul>`
+    tracksList.innerHTML=tracks.length?`<ul class='list-group'>${trackListHTML}</ul>`:emptyTrackHTML
+    // tracksList.innerHTML = `<ul class='list-group'>${trackListHTML}</ul>`
 }
 const renderPlayerHTML =(name,duration)=>{
   const player = $('player-status')
