@@ -1,0 +1,26 @@
+#tracksList .col-2 .fas:hover{
+    cursor: pointer;
+}
+#tracksList li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#tracksList{
+    margin-top: 20px;
+}
+#player-progress{
+    width: 0%;
+}
+.col-2 i {
+    font-size: 22px;
+}
+#player-progress{
+    color: chocolate;
+}
+#current-seeker{
+    margin-left: 50px;
+}
+.padd{
+    padding-left: 20px;
+}
