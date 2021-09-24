@@ -19,7 +19,7 @@
   "devDependencies": {
     "electron": "^14.0.0",
     "jquery": "^2.2.4",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.13"
   },
   "dependencies": {
     "bootstrap": "^3.4.1",
